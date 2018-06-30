@@ -93,7 +93,7 @@ persist.vendor.qti.telephony.vt_cam_interface=1
 persist.dbg.vt_avail_ovr=1
 
 #lcd density
-ro.sf.lcd_density=480
+ro.sf.lcd_density=420
 
 #usb
 sys.usb.controller=a800000.dwc3
