@@ -66,3 +66,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
+# Force disable blank
+debug.force_no_blanking=true
+
