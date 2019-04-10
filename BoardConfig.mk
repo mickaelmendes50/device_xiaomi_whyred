@@ -59,7 +59,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := whyred-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
@@ -237,11 +237,6 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
-
-# TWRP Support
-ifeq ($(WITH_TWRP),true)
--include $(DEVICE_PATH)/twrp.mk
-endif
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
