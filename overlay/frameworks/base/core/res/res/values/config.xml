@@ -511,4 +511,8 @@
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
+
+    <!-- Minimum time in milliseconds between power button presses so it will be considered
+         as a camera launch. To avoid false triggers. -->
+    <integer name="config_cameraPowerDoubleTapMinTime">75</integer>
 </resources>
