@@ -69,3 +69,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
+
+# Force disable blank
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.force_no_blanking=true
+
